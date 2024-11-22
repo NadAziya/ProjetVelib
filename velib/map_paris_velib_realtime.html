@@ -1,0 +1,2367 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c5c154846e4ad3793a0ec216745643bb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c5c154846e4ad3793a0ec216745643bb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c5c154846e4ad3793a0ec216745643bb = L.map(
+                "map_c5c154846e4ad3793a0ec216745643bb",
+                {
+                    center: [48.8566, 2.3522],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_49c9cd39430983e89459555f2d0f1ff6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_49c9cd39430983e89459555f2d0f1ff6.addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var marker_f65148ff52674822207219c065fac777 = L.marker(
+                [48.863287291502, 2.3869940266013],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_988bdc8629ef0782709ea588944b88aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f65148ff52674822207219c065fac777.setIcon(icon_988bdc8629ef0782709ea588944b88aa);
+        
+    
+        var popup_e88987acd27cfa79585e8846cc4b3058 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff7d61b73361c26a4248c15e59bd8cdb = $(`<div id="html_ff7d61b73361c26a4248c15e59bd8cdb" style="width: 100.0%; height: 100.0%;">Ménilmontant - Père Lachaise - Vélos disponibles: 2</div>`)[0];
+                popup_e88987acd27cfa79585e8846cc4b3058.setContent(html_ff7d61b73361c26a4248c15e59bd8cdb);
+            
+        
+
+        marker_f65148ff52674822207219c065fac777.bindPopup(popup_e88987acd27cfa79585e8846cc4b3058)
+        ;
+
+        
+    
+    
+            var marker_bfee181a9f1d95cab4afa560b813465b = L.marker(
+                [48.8693268535238, 2.395084574818611],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_9785c1bb30feedd05ecf38bf658459ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bfee181a9f1d95cab4afa560b813465b.setIcon(icon_9785c1bb30feedd05ecf38bf658459ca);
+        
+    
+        var popup_2f72d692387f4955b53ce8d9f806c488 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69f96370a082099eab01f7b43501466b = $(`<div id="html_69f96370a082099eab01f7b43501466b" style="width: 100.0%; height: 100.0%;">Pyrénées - Ménilmontant - Vélos disponibles: 2</div>`)[0];
+                popup_2f72d692387f4955b53ce8d9f806c488.setContent(html_69f96370a082099eab01f7b43501466b);
+            
+        
+
+        marker_bfee181a9f1d95cab4afa560b813465b.bindPopup(popup_2f72d692387f4955b53ce8d9f806c488)
+        ;
+
+        
+    
+    
+            var marker_6241b2534f91bdb00b1116f1e5f66ba2 = L.marker(
+                [48.81168551728, 2.2111820107205],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_104adbb79002354d138d025703c07789 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6241b2534f91bdb00b1116f1e5f66ba2.setIcon(icon_104adbb79002354d138d025703c07789);
+        
+    
+        var popup_d295b345e7fcf64b910e91cd726d8131 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_858eb2cb38256691e2a63383d8c642e7 = $(`<div id="html_858eb2cb38256691e2a63383d8c642e7" style="width: 100.0%; height: 100.0%;">Pavé des Gardes - Charles Vaillant - Vélos disponibles: 16</div>`)[0];
+                popup_d295b345e7fcf64b910e91cd726d8131.setContent(html_858eb2cb38256691e2a63383d8c642e7);
+            
+        
+
+        marker_6241b2534f91bdb00b1116f1e5f66ba2.bindPopup(popup_d295b345e7fcf64b910e91cd726d8131)
+        ;
+
+        
+    
+    
+            var marker_cc29dbb9c9201fb4c9474918f3c505a9 = L.marker(
+                [48.871244610447015, 2.4039056897163396],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_c66cd1c6fd3f0861c45b5945180ccda2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cc29dbb9c9201fb4c9474918f3c505a9.setIcon(icon_c66cd1c6fd3f0861c45b5945180ccda2);
+        
+    
+        var popup_deb0742bc075a8bde1f2a99d6fe614f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51da4a141bf7b2657b824ff140bf13ec = $(`<div id="html_51da4a141bf7b2657b824ff140bf13ec" style="width: 100.0%; height: 100.0%;">Gambetta - Saint Fargeau - Vélos disponibles: 0</div>`)[0];
+                popup_deb0742bc075a8bde1f2a99d6fe614f2.setContent(html_51da4a141bf7b2657b824ff140bf13ec);
+            
+        
+
+        marker_cc29dbb9c9201fb4c9474918f3c505a9.bindPopup(popup_deb0742bc075a8bde1f2a99d6fe614f2)
+        ;
+
+        
+    
+    
+            var marker_d390e2a41431bc000458c6b5b3550ce1 = L.marker(
+                [48.933548439566, 2.3064726536317],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_0e815e5b00977d060b8e6d421be8b944 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d390e2a41431bc000458c6b5b3550ce1.setIcon(icon_0e815e5b00977d060b8e6d421be8b944);
+        
+    
+        var popup_ffacac7a43d8b55d2818ad17d1a1b168 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59a3314f1343d71eb3f29e9fec3d6ee2 = $(`<div id="html_59a3314f1343d71eb3f29e9fec3d6ee2" style="width: 100.0%; height: 100.0%;">Gare RER - Général de Gaulle - Vélos disponibles: 32</div>`)[0];
+                popup_ffacac7a43d8b55d2818ad17d1a1b168.setContent(html_59a3314f1343d71eb3f29e9fec3d6ee2);
+            
+        
+
+        marker_d390e2a41431bc000458c6b5b3550ce1.bindPopup(popup_ffacac7a43d8b55d2818ad17d1a1b168)
+        ;
+
+        
+    
+    
+            var marker_e321fd5f3363531fa7890b1a7e29073b = L.marker(
+                [48.82941, 2.375934],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_f9b9c91b87bd53f1c9f3cf52629fce3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e321fd5f3363531fa7890b1a7e29073b.setIcon(icon_f9b9c91b87bd53f1c9f3cf52629fce3c);
+        
+    
+        var popup_36215cb1c5c97c5f7d3bfbbc8b05fb22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b065398e1130c28243966e4c90a19f94 = $(`<div id="html_b065398e1130c28243966e4c90a19f94" style="width: 100.0%; height: 100.0%;">Chevaleret - Tolbiac - Vélos disponibles: 6</div>`)[0];
+                popup_36215cb1c5c97c5f7d3bfbbc8b05fb22.setContent(html_b065398e1130c28243966e4c90a19f94);
+            
+        
+
+        marker_e321fd5f3363531fa7890b1a7e29073b.bindPopup(popup_36215cb1c5c97c5f7d3bfbbc8b05fb22)
+        ;
+
+        
+    
+    
+            var marker_516afa7fd467fa8ce3aa60df366d6797 = L.marker(
+                [48.781109786782, 2.3549050362061],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_39ad157b7fafec379eaf92f31a5ab9e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_516afa7fd467fa8ce3aa60df366d6797.setIcon(icon_39ad157b7fafec379eaf92f31a5ab9e6);
+        
+    
+        var popup_aad520ebea2d6ea700a15ad4ebb746af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad9eec6a760004510e2e6f9151a3a63b = $(`<div id="html_ad9eec6a760004510e2e6f9151a3a63b" style="width: 100.0%; height: 100.0%;">Epi d'Or - Chevilly - Vélos disponibles: 20</div>`)[0];
+                popup_aad520ebea2d6ea700a15ad4ebb746af.setContent(html_ad9eec6a760004510e2e6f9151a3a63b);
+            
+        
+
+        marker_516afa7fd467fa8ce3aa60df366d6797.bindPopup(popup_aad520ebea2d6ea700a15ad4ebb746af)
+        ;
+
+        
+    
+    
+            var marker_18fffa10d68ab44710fb6bf92f4ba7ea = L.marker(
+                [48.8685433, 2.3600032],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_1d171e2d0b71f7168e1a80d494448740 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_18fffa10d68ab44710fb6bf92f4ba7ea.setIcon(icon_1d171e2d0b71f7168e1a80d494448740);
+        
+    
+        var popup_c5736629955f98e83473f22dc8d2b83b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4521b40102b044fce13504149b5ad48b = $(`<div id="html_4521b40102b044fce13504149b5ad48b" style="width: 100.0%; height: 100.0%;">René Boulanger - Lancry - Vélos disponibles: 3</div>`)[0];
+                popup_c5736629955f98e83473f22dc8d2b83b.setContent(html_4521b40102b044fce13504149b5ad48b);
+            
+        
+
+        marker_18fffa10d68ab44710fb6bf92f4ba7ea.bindPopup(popup_c5736629955f98e83473f22dc8d2b83b)
+        ;
+
+        
+    
+    
+            var marker_30e1f6cc64cf41b266e4507964b742a9 = L.marker(
+                [48.905452421305, 2.3220406472683],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_18d10e3dc2f086c8864a047f6abdde67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_30e1f6cc64cf41b266e4507964b742a9.setIcon(icon_18d10e3dc2f086c8864a047f6abdde67);
+        
+    
+        var popup_31d12ea14c039d16c40200d88a5381d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29622cafcfb553776a73a8ed985abb4d = $(`<div id="html_29622cafcfb553776a73a8ed985abb4d" style="width: 100.0%; height: 100.0%;">Dora Maar - Nadia Guendouz - Vélos disponibles: 24</div>`)[0];
+                popup_31d12ea14c039d16c40200d88a5381d0.setContent(html_29622cafcfb553776a73a8ed985abb4d);
+            
+        
+
+        marker_30e1f6cc64cf41b266e4507964b742a9.bindPopup(popup_31d12ea14c039d16c40200d88a5381d0)
+        ;
+
+        
+    
+    
+            var marker_939b8d5130c6eb8351e9d57147c55419 = L.marker(
+                [48.879612765504, 2.3568402975798],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_cbbb7bd31575c832b561c0180215ebc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_939b8d5130c6eb8351e9d57147c55419.setIcon(icon_cbbb7bd31575c832b561c0180215ebc9);
+        
+    
+        var popup_1e305116fb83a5539f6417f20590f5b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4034775931985ddc55f568333e9faa9e = $(`<div id="html_4034775931985ddc55f568333e9faa9e" style="width: 100.0%; height: 100.0%;">Gare du Nord - Faubourg Saint-Denis - Vélos disponibles: 3</div>`)[0];
+                popup_1e305116fb83a5539f6417f20590f5b8.setContent(html_4034775931985ddc55f568333e9faa9e);
+            
+        
+
+        marker_939b8d5130c6eb8351e9d57147c55419.bindPopup(popup_1e305116fb83a5539f6417f20590f5b8)
+        ;
+
+        
+    
+    
+            var marker_302cbbe63f9bc3ad932e86155bac3ef3 = L.marker(
+                [48.802056061754, 2.3159965061736],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_a252242ac8d87cbb744bdce939fb9788 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_302cbbe63f9bc3ad932e86155bac3ef3.setIcon(icon_a252242ac8d87cbb744bdce939fb9788);
+        
+    
+        var popup_891b6815aced320e1fce0732e2d1411e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_522d4e22dbd07fef945b55a783fa2406 = $(`<div id="html_522d4e22dbd07fef945b55a783fa2406" style="width: 100.0%; height: 100.0%;">Verdun - Henri Barbusse - Vélos disponibles: 15</div>`)[0];
+                popup_891b6815aced320e1fce0732e2d1411e.setContent(html_522d4e22dbd07fef945b55a783fa2406);
+            
+        
+
+        marker_302cbbe63f9bc3ad932e86155bac3ef3.bindPopup(popup_891b6815aced320e1fce0732e2d1411e)
+        ;
+
+        
+    
+    
+            var marker_49e9669ace83e63723f990431697bdc8 = L.marker(
+                [48.902616, 2.397814],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_7970baeb7e6ef656721b778a3075e8d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_49e9669ace83e63723f990431697bdc8.setIcon(icon_7970baeb7e6ef656721b778a3075e8d2);
+        
+    
+        var popup_36762b900d5b832cedb3b91ab9d1674c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_044e61824e20fca17dd829b53977dc92 = $(`<div id="html_044e61824e20fca17dd829b53977dc92" style="width: 100.0%; height: 100.0%;">Cartier Bresson - Denis Papin - Vélos disponibles: 4</div>`)[0];
+                popup_36762b900d5b832cedb3b91ab9d1674c.setContent(html_044e61824e20fca17dd829b53977dc92);
+            
+        
+
+        marker_49e9669ace83e63723f990431697bdc8.bindPopup(popup_36762b900d5b832cedb3b91ab9d1674c)
+        ;
+
+        
+    
+    
+            var marker_e0f657196095bed1a634d0fb58bf0c37 = L.marker(
+                [48.8867667, 2.326228],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_5b3bdc48098e5757fc71bbb5ef046163 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e0f657196095bed1a634d0fb58bf0c37.setIcon(icon_5b3bdc48098e5757fc71bbb5ef046163);
+        
+    
+        var popup_a26c591b57234ea8264e9f281f9939f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed9bebe83d96bc7afe733e8c139ec299 = $(`<div id="html_ed9bebe83d96bc7afe733e8c139ec299" style="width: 100.0%; height: 100.0%;">Pierre Ginier - Clichy - Vélos disponibles: 1</div>`)[0];
+                popup_a26c591b57234ea8264e9f281f9939f5.setContent(html_ed9bebe83d96bc7afe733e8c139ec299);
+            
+        
+
+        marker_e0f657196095bed1a634d0fb58bf0c37.bindPopup(popup_a26c591b57234ea8264e9f281f9939f5)
+        ;
+
+        
+    
+    
+            var marker_e493240c4f9a4f89989250e9c76ea309 = L.marker(
+                [48.8906542, 2.3309428],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_ec654aac35bb4adc5e08a1bdca5af75a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e493240c4f9a4f89989250e9c76ea309.setIcon(icon_ec654aac35bb4adc5e08a1bdca5af75a);
+        
+    
+        var popup_4e6335ad1361abb0c7689427dad9697d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d108e6b582d158e496f1e127aa7c2d69 = $(`<div id="html_d108e6b582d158e496f1e127aa7c2d69" style="width: 100.0%; height: 100.0%;">Carpeaux - Place Jacques Froment - Vélos disponibles: 1</div>`)[0];
+                popup_4e6335ad1361abb0c7689427dad9697d.setContent(html_d108e6b582d158e496f1e127aa7c2d69);
+            
+        
+
+        marker_e493240c4f9a4f89989250e9c76ea309.bindPopup(popup_4e6335ad1361abb0c7689427dad9697d)
+        ;
+
+        
+    
+    
+            var marker_dcbcdd03baa1925c4ec4afdecf5784e0 = L.marker(
+                [48.927567032796, 2.2947337017374],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_a64f1f1a420d9e873e1286c1a65578b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dcbcdd03baa1925c4ec4afdecf5784e0.setIcon(icon_a64f1f1a420d9e873e1286c1a65578b1);
+        
+    
+        var popup_ecee749f8e9c0a004fac595aae1002b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4c4685db2fdf7c8bcca46a9f37f261c = $(`<div id="html_a4c4685db2fdf7c8bcca46a9f37f261c" style="width: 100.0%; height: 100.0%;">Jean Jaurès - Place du Dr Roux - Vélos disponibles: 17</div>`)[0];
+                popup_ecee749f8e9c0a004fac595aae1002b2.setContent(html_a4c4685db2fdf7c8bcca46a9f37f261c);
+            
+        
+
+        marker_dcbcdd03baa1925c4ec4afdecf5784e0.bindPopup(popup_ecee749f8e9c0a004fac595aae1002b2)
+        ;
+
+        
+    
+    
+            var marker_33ef7216243825cb05cd435f4039fa8c = L.marker(
+                [48.807671407991, 2.2407217696309],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_8a3bdefcea336e2ac072f01a05b135e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_33ef7216243825cb05cd435f4039fa8c.setIcon(icon_8a3bdefcea336e2ac072f01a05b135e9);
+        
+    
+        var popup_7296eb5fcc2a51b65e4e29a374fe07e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2eab0251d27b35e46f922bc4a587d7b8 = $(`<div id="html_2eab0251d27b35e46f922bc4a587d7b8" style="width: 100.0%; height: 100.0%;">Val-Fleury - Vélos disponibles: 17</div>`)[0];
+                popup_7296eb5fcc2a51b65e4e29a374fe07e3.setContent(html_2eab0251d27b35e46f922bc4a587d7b8);
+            
+        
+
+        marker_33ef7216243825cb05cd435f4039fa8c.bindPopup(popup_7296eb5fcc2a51b65e4e29a374fe07e3)
+        ;
+
+        
+    
+    
+            var marker_63dd230f6b7738e4f53c626bf6fdf646 = L.marker(
+                [48.90970830301211, 2.2454486480600626],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_563dc1a7304c399e556ee6d73b0d5adb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_63dd230f6b7738e4f53c626bf6fdf646.setIcon(icon_563dc1a7304c399e556ee6d73b0d5adb);
+        
+    
+        var popup_f2b84935cd23ecbf4c6c461337c51daa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8192b81514be52da45b15a1b9fdcd80 = $(`<div id="html_a8192b81514be52da45b15a1b9fdcd80" style="width: 100.0%; height: 100.0%;">Châteaudun - Place de la Liberté - Vélos disponibles: 24</div>`)[0];
+                popup_f2b84935cd23ecbf4c6c461337c51daa.setContent(html_a8192b81514be52da45b15a1b9fdcd80);
+            
+        
+
+        marker_63dd230f6b7738e4f53c626bf6fdf646.bindPopup(popup_f2b84935cd23ecbf4c6c461337c51daa)
+        ;
+
+        
+    
+    
+            var marker_fa7b1ecfd85fe784bc02604fc41f3e42 = L.marker(
+                [48.788093281931, 2.2909234046643],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_3b9669263f6a664409bb9864e7d50b65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fa7b1ecfd85fe784bc02604fc41f3e42.setIcon(icon_3b9669263f6a664409bb9864e7d50b65);
+        
+    
+        var popup_91cc277398bc46e40574f4e151510511 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2edfb6f804f6dad6c64219714c548118 = $(`<div id="html_2edfb6f804f6dad6c64219714c548118" style="width: 100.0%; height: 100.0%;">Place Henri Dunant - Gare RER - Vélos disponibles: 12</div>`)[0];
+                popup_91cc277398bc46e40574f4e151510511.setContent(html_2edfb6f804f6dad6c64219714c548118);
+            
+        
+
+        marker_fa7b1ecfd85fe784bc02604fc41f3e42.bindPopup(popup_91cc277398bc46e40574f4e151510511)
+        ;
+
+        
+    
+    
+            var marker_74879035b8a185b528f8009f13c03950 = L.marker(
+                [48.7973062, 2.2909969],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_337f788687dd849dcc79569d5a688133 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_74879035b8a185b528f8009f13c03950.setIcon(icon_337f788687dd849dcc79569d5a688133);
+        
+    
+        var popup_6ba2fe5dd71dbfd1d4e12792cb3353cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6922015b020e6b57e5df847fe6d72ba2 = $(`<div id="html_6922015b020e6b57e5df847fe6d72ba2" style="width: 100.0%; height: 100.0%;">Parc des Pierrettes - Vélos disponibles: 1</div>`)[0];
+                popup_6ba2fe5dd71dbfd1d4e12792cb3353cc.setContent(html_6922015b020e6b57e5df847fe6d72ba2);
+            
+        
+
+        marker_74879035b8a185b528f8009f13c03950.bindPopup(popup_6ba2fe5dd71dbfd1d4e12792cb3353cc)
+        ;
+
+        
+    
+    
+            var marker_a71b1133d3c582415ff7bdeef9c04031 = L.marker(
+                [48.940931521020836, 2.363948999931771],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_58cc0fec7e6d523496c43597544ee6de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a71b1133d3c582415ff7bdeef9c04031.setIcon(icon_58cc0fec7e6d523496c43597544ee6de);
+        
+    
+        var popup_f8bf5eb00fca371c5e214b6514cfccc5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c43e0f550522e94821494859c8b21c7 = $(`<div id="html_8c43e0f550522e94821494859c8b21c7" style="width: 100.0%; height: 100.0%;">Guy Môquet - Jean Moulin - Vélos disponibles: 27</div>`)[0];
+                popup_f8bf5eb00fca371c5e214b6514cfccc5.setContent(html_8c43e0f550522e94821494859c8b21c7);
+            
+        
+
+        marker_a71b1133d3c582415ff7bdeef9c04031.bindPopup(popup_f8bf5eb00fca371c5e214b6514cfccc5)
+        ;
+
+        
+    
+    
+            var marker_06118e8083b2ead7d2042e3857bb2649 = L.marker(
+                [48.858446, 2.192077],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_05ff8bbd508b916d09c7632c583b1f78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_06118e8083b2ead7d2042e3857bb2649.setIcon(icon_05ff8bbd508b916d09c7632c583b1f78);
+        
+    
+        var popup_3f050fd91e0961c4a7ed214197415eed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3159b0ca9c481204785dc5385d8abd8 = $(`<div id="html_f3159b0ca9c481204785dc5385d8abd8" style="width: 100.0%; height: 100.0%;">Maréchal Leclerc de Hauteclocque - Marché Buzenval - Vélos disponibles: 6</div>`)[0];
+                popup_3f050fd91e0961c4a7ed214197415eed.setContent(html_f3159b0ca9c481204785dc5385d8abd8);
+            
+        
+
+        marker_06118e8083b2ead7d2042e3857bb2649.bindPopup(popup_3f050fd91e0961c4a7ed214197415eed)
+        ;
+
+        
+    
+    
+            var marker_08417ec37fa6abad16ff4ccbce1326eb = L.marker(
+                [48.851355779579, 2.369220033288],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_a3e2ab99a9d3af13d1ce20b1e6051e60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_08417ec37fa6abad16ff4ccbce1326eb.setIcon(icon_a3e2ab99a9d3af13d1ce20b1e6051e60);
+        
+    
+        var popup_3f4a6bdcd7049a9a93c94313fccdbb4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dc88e1d0c4767d46cda1347a7133186 = $(`<div id="html_5dc88e1d0c4767d46cda1347a7133186" style="width: 100.0%; height: 100.0%;">Bastille - Biscornet - Vélos disponibles: 55</div>`)[0];
+                popup_3f4a6bdcd7049a9a93c94313fccdbb4b.setContent(html_5dc88e1d0c4767d46cda1347a7133186);
+            
+        
+
+        marker_08417ec37fa6abad16ff4ccbce1326eb.bindPopup(popup_3f4a6bdcd7049a9a93c94313fccdbb4b)
+        ;
+
+        
+    
+    
+            var marker_e87dc13fb4785d396d901f9ae0d51ff9 = L.marker(
+                [48.798666226364, 2.2833752789972],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_1d79f4363b7efd448139798b849b1738 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e87dc13fb4785d396d901f9ae0d51ff9.setIcon(icon_1d79f4363b7efd448139798b849b1738);
+        
+    
+        var popup_ba36ebe972c5f18141eb85538f9ea055 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d435f6fa556b1f4052cb93b72688b5a7 = $(`<div id="html_d435f6fa556b1f4052cb93b72688b5a7" style="width: 100.0%; height: 100.0%;">Division Leclerc - Kléber - Vélos disponibles: 1</div>`)[0];
+                popup_ba36ebe972c5f18141eb85538f9ea055.setContent(html_d435f6fa556b1f4052cb93b72688b5a7);
+            
+        
+
+        marker_e87dc13fb4785d396d901f9ae0d51ff9.bindPopup(popup_ba36ebe972c5f18141eb85538f9ea055)
+        ;
+
+        
+    
+    
+            var marker_929a2df54f2f1b795eead39a21a14433 = L.marker(
+                [48.877753, 2.327339],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_c25f7656cb143f269ad0b37da7947d21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_929a2df54f2f1b795eead39a21a14433.setIcon(icon_c25f7656cb143f269ad0b37da7947d21);
+        
+    
+        var popup_498e6028afdbd842de5ed7e131748f07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_964b568451f8728e1af95895b81a10cb = $(`<div id="html_964b568451f8728e1af95895b81a10cb" style="width: 100.0%; height: 100.0%;">Gare Saint-Lazare - Place de Budapest - Vélos disponibles: 10</div>`)[0];
+                popup_498e6028afdbd842de5ed7e131748f07.setContent(html_964b568451f8728e1af95895b81a10cb);
+            
+        
+
+        marker_929a2df54f2f1b795eead39a21a14433.bindPopup(popup_498e6028afdbd842de5ed7e131748f07)
+        ;
+
+        
+    
+    
+            var marker_6e62f4f34f97597f0ee2657fd427801a = L.marker(
+                [48.91301722799713, 2.2734212270774417],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_95678a91b643318fb66cceadec184ee0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6e62f4f34f97597f0ee2657fd427801a.setIcon(icon_95678a91b643318fb66cceadec184ee0);
+        
+    
+        var popup_1801ca016d0c1a2ae798bd27f6682ee9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f44ea34612843d595cbe58de83d45fa1 = $(`<div id="html_f44ea34612843d595cbe58de83d45fa1" style="width: 100.0%; height: 100.0%;">Henri Barbusse - Bourguignons - Vélos disponibles: 12</div>`)[0];
+                popup_1801ca016d0c1a2ae798bd27f6682ee9.setContent(html_f44ea34612843d595cbe58de83d45fa1);
+            
+        
+
+        marker_6e62f4f34f97597f0ee2657fd427801a.bindPopup(popup_1801ca016d0c1a2ae798bd27f6682ee9)
+        ;
+
+        
+    
+    
+            var marker_23309864be635816f3a54c51de94273b = L.marker(
+                [48.905741911394, 2.3316044208059],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_370f9a02ff6f969cc21c4eed1d3821a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_23309864be635816f3a54c51de94273b.setIcon(icon_370f9a02ff6f969cc21c4eed1d3821a5);
+        
+    
+        var popup_63be65f3b3f7c2abed7f0b1b7839e34b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa3b27fe3bc0ae66988239dd9ea52bd4 = $(`<div id="html_fa3b27fe3bc0ae66988239dd9ea52bd4" style="width: 100.0%; height: 100.0%;">Garibaldi - Gabriel Péri - Vélos disponibles: 17</div>`)[0];
+                popup_63be65f3b3f7c2abed7f0b1b7839e34b.setContent(html_fa3b27fe3bc0ae66988239dd9ea52bd4);
+            
+        
+
+        marker_23309864be635816f3a54c51de94273b.bindPopup(popup_63be65f3b3f7c2abed7f0b1b7839e34b)
+        ;
+
+        
+    
+    
+            var marker_815fa75c3b232227ba546e328356ebd9 = L.marker(
+                [48.915817585516, 2.3239533298594],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_5a36047fe360fd39d18deb57e741f813 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_815fa75c3b232227ba546e328356ebd9.setIcon(icon_5a36047fe360fd39d18deb57e741f813);
+        
+    
+        var popup_731353b2f6280ec28ed4f0858a6eddec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35a15588c879e2a21abc28dae1f98822 = $(`<div id="html_35a15588c879e2a21abc28dae1f98822" style="width: 100.0%; height: 100.0%;">Bateliers - Quai de Seine - Vélos disponibles: 16</div>`)[0];
+                popup_731353b2f6280ec28ed4f0858a6eddec.setContent(html_35a15588c879e2a21abc28dae1f98822);
+            
+        
+
+        marker_815fa75c3b232227ba546e328356ebd9.bindPopup(popup_731353b2f6280ec28ed4f0858a6eddec)
+        ;
+
+        
+    
+    
+            var marker_bb0a33854315a8b16acb74053388a694 = L.marker(
+                [48.896280181078, 2.4581568985227],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_93d9e0c02718da69a1f38f40f80c4880 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bb0a33854315a8b16acb74053388a694.setIcon(icon_93d9e0c02718da69a1f38f40f80c4880);
+        
+    
+        var popup_4cd9a7b0fdb8afef5ca875b6e0b5f424 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06e7232f43f01e198ea5817c4c1afd18 = $(`<div id="html_06e7232f43f01e198ea5817c4c1afd18" style="width: 100.0%; height: 100.0%;">Gare RER - Vélos disponibles: 12</div>`)[0];
+                popup_4cd9a7b0fdb8afef5ca875b6e0b5f424.setContent(html_06e7232f43f01e198ea5817c4c1afd18);
+            
+        
+
+        marker_bb0a33854315a8b16acb74053388a694.bindPopup(popup_4cd9a7b0fdb8afef5ca875b6e0b5f424)
+        ;
+
+        
+    
+    
+            var marker_aba95b3bf6bd4583843277e9e4c38cb9 = L.marker(
+                [48.86462724459225, 2.2047570338469806],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_b8ac52fa52b0869331c86a5501cf846a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aba95b3bf6bd4583843277e9e4c38cb9.setIcon(icon_b8ac52fa52b0869331c86a5501cf846a);
+        
+    
+        var popup_1fdafe9d025c9d7a193b41d3084ba493 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d887232b8af303b766ebc719b4a14c68 = $(`<div id="html_d887232b8af303b766ebc719b4a14c68" style="width: 100.0%; height: 100.0%;">Place de la Paix - Abbé Saint-Pierre - Vélos disponibles: 1</div>`)[0];
+                popup_1fdafe9d025c9d7a193b41d3084ba493.setContent(html_d887232b8af303b766ebc719b4a14c68);
+            
+        
+
+        marker_aba95b3bf6bd4583843277e9e4c38cb9.bindPopup(popup_1fdafe9d025c9d7a193b41d3084ba493)
+        ;
+
+        
+    
+    
+            var marker_0abdc6fa8cda307fca36eb50e0ad1ae4 = L.marker(
+                [48.903600624712865, 2.465406596265139],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_e0c8c7a187a83665609258d91feb8b33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0abdc6fa8cda307fca36eb50e0ad1ae4.setIcon(icon_e0c8c7a187a83665609258d91feb8b33);
+        
+    
+        var popup_04df36b717bbebb68893659b907110c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ef5b0839dd2d0bb5c3fe5b199633165 = $(`<div id="html_3ef5b0839dd2d0bb5c3fe5b199633165" style="width: 100.0%; height: 100.0%;">Simone Signoret - Paris - Vélos disponibles: 2</div>`)[0];
+                popup_04df36b717bbebb68893659b907110c9.setContent(html_3ef5b0839dd2d0bb5c3fe5b199633165);
+            
+        
+
+        marker_0abdc6fa8cda307fca36eb50e0ad1ae4.bindPopup(popup_04df36b717bbebb68893659b907110c9)
+        ;
+
+        
+    
+    
+            var marker_745833bb7abfd97017b01d21544e78fe = L.marker(
+                [48.894799816683985, 2.318705212173216],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_279496d9d46b0328fe587d8d8b540f5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_745833bb7abfd97017b01d21544e78fe.setIcon(icon_279496d9d46b0328fe587d8d8b540f5e);
+        
+    
+        var popup_4cd7ed80de6bb59961ee105954cac82e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b502ef0503ddd467204d2437adfc48f = $(`<div id="html_5b502ef0503ddd467204d2437adfc48f" style="width: 100.0%; height: 100.0%;">Jonquière - Docteur Paul Brousse - Vélos disponibles: 12</div>`)[0];
+                popup_4cd7ed80de6bb59961ee105954cac82e.setContent(html_5b502ef0503ddd467204d2437adfc48f);
+            
+        
+
+        marker_745833bb7abfd97017b01d21544e78fe.bindPopup(popup_4cd7ed80de6bb59961ee105954cac82e)
+        ;
+
+        
+    
+    
+            var marker_dbc68ba5014a8e5e5b96392fd8d57b7d = L.marker(
+                [48.86926, 2.289918],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_84b527c77a0181699387f1571a2ec2c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dbc68ba5014a8e5e5b96392fd8d57b7d.setIcon(icon_84b527c77a0181699387f1571a2ec2c9);
+        
+    
+        var popup_6bf82c57e014ceb86951b8616607fea9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3388a2cefd7e5406e2d48992c8e4a9f = $(`<div id="html_a3388a2cefd7e5406e2d48992c8e4a9f" style="width: 100.0%; height: 100.0%;">Lauriston - Copernic - Vélos disponibles: 2</div>`)[0];
+                popup_6bf82c57e014ceb86951b8616607fea9.setContent(html_a3388a2cefd7e5406e2d48992c8e4a9f);
+            
+        
+
+        marker_dbc68ba5014a8e5e5b96392fd8d57b7d.bindPopup(popup_6bf82c57e014ceb86951b8616607fea9)
+        ;
+
+        
+    
+    
+            var marker_70899ad116058ef5401e372493cf5d26 = L.marker(
+                [48.82591155587, 2.3602393269539],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_803394a7defca7150bde92c7bf8d57ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_70899ad116058ef5401e372493cf5d26.setIcon(icon_803394a7defca7150bde92c7bf8d57ed);
+        
+    
+        var popup_6b076f49cd50c0c7c8c77ca29a45b941 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e410ca249fd259ba8cc00ac815e8023b = $(`<div id="html_e410ca249fd259ba8cc00ac815e8023b" style="width: 100.0%; height: 100.0%;">Choisy - Tolbiac - Vélos disponibles: 0</div>`)[0];
+                popup_6b076f49cd50c0c7c8c77ca29a45b941.setContent(html_e410ca249fd259ba8cc00ac815e8023b);
+            
+        
+
+        marker_70899ad116058ef5401e372493cf5d26.bindPopup(popup_6b076f49cd50c0c7c8c77ca29a45b941)
+        ;
+
+        
+    
+    
+            var marker_7c3d7d2fdf42aa9b35b0b08d69227735 = L.marker(
+                [48.846280383395, 2.3430785379567],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_ee7037e9dbe8467bb27979b5fd064650 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7c3d7d2fdf42aa9b35b0b08d69227735.setIcon(icon_ee7037e9dbe8467bb27979b5fd064650);
+        
+    
+        var popup_50f026c9b582f6189a763a27181675e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2eba679fb0a5372ae6406d49606b75b0 = $(`<div id="html_2eba679fb0a5372ae6406d49606b75b0" style="width: 100.0%; height: 100.0%;">Saint-Jacques - Soufflot - Vélos disponibles: 15</div>`)[0];
+                popup_50f026c9b582f6189a763a27181675e6.setContent(html_2eba679fb0a5372ae6406d49606b75b0);
+            
+        
+
+        marker_7c3d7d2fdf42aa9b35b0b08d69227735.bindPopup(popup_50f026c9b582f6189a763a27181675e6)
+        ;
+
+        
+    
+    
+            var marker_5631921a3922bc1fbb949ff9df85f881 = L.marker(
+                [48.923306888013, 2.3847292397611],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_9fb0a180662f9e00c9ede8bfb37a8923 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5631921a3922bc1fbb949ff9df85f881.setIcon(icon_9fb0a180662f9e00c9ede8bfb37a8923);
+        
+    
+        var popup_1ce88da67a922c1f46578a13a7121b80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba3bed8ffe6a58651dc99546199a01b4 = $(`<div id="html_ba3bed8ffe6a58651dc99546199a01b4" style="width: 100.0%; height: 100.0%;">Suzanne Masson - Vélos disponibles: 27</div>`)[0];
+                popup_1ce88da67a922c1f46578a13a7121b80.setContent(html_ba3bed8ffe6a58651dc99546199a01b4);
+            
+        
+
+        marker_5631921a3922bc1fbb949ff9df85f881.bindPopup(popup_1ce88da67a922c1f46578a13a7121b80)
+        ;
+
+        
+    
+    
+            var marker_3e6ee05b47b171eec32e97e55b1f44a9 = L.marker(
+                [48.84351378799, 2.3065522313118],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_4dc328c8e1dc4581aa29fc0562a34d38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3e6ee05b47b171eec32e97e55b1f44a9.setIcon(icon_4dc328c8e1dc4581aa29fc0562a34d38);
+        
+    
+        var popup_0f9c6b647b0f5120fefe3fa9db84b122 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0670d3c19e1fbcbd1c838fc5a2c3225c = $(`<div id="html_0670d3c19e1fbcbd1c838fc5a2c3225c" style="width: 100.0%; height: 100.0%;">Volontaires - Lecourbe - Vélos disponibles: 1</div>`)[0];
+                popup_0f9c6b647b0f5120fefe3fa9db84b122.setContent(html_0670d3c19e1fbcbd1c838fc5a2c3225c);
+            
+        
+
+        marker_3e6ee05b47b171eec32e97e55b1f44a9.bindPopup(popup_0f9c6b647b0f5120fefe3fa9db84b122)
+        ;
+
+        
+    
+    
+            var marker_06c39c6722a3cf99b519ea41586dac08 = L.marker(
+                [48.850270554523, 2.3069813815839],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_f41a60d5553eed1b3b79adc068d0db8b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_06c39c6722a3cf99b519ea41586dac08.setIcon(icon_f41a60d5553eed1b3b79adc068d0db8b);
+        
+    
+        var popup_1788f0d2eb171f8b7644d63234e00b73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bdc8424f0719b9502f9e9b00fd43d3c = $(`<div id="html_2bdc8424f0719b9502f9e9b00fd43d3c" style="width: 100.0%; height: 100.0%;">Place De Fontenoy - Saxe - Vélos disponibles: 0</div>`)[0];
+                popup_1788f0d2eb171f8b7644d63234e00b73.setContent(html_2bdc8424f0719b9502f9e9b00fd43d3c);
+            
+        
+
+        marker_06c39c6722a3cf99b519ea41586dac08.bindPopup(popup_1788f0d2eb171f8b7644d63234e00b73)
+        ;
+
+        
+    
+    
+            var marker_b96868f39379b3e6baa04f065a86204c = L.marker(
+                [48.874794994841, 2.366669436985],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_ba1cb1a9d2362c526a00d40aafe21b62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b96868f39379b3e6baa04f065a86204c.setIcon(icon_ba1cb1a9d2362c526a00d40aafe21b62);
+        
+    
+        var popup_f2e5fe56b0aa33a83f96637e9a6c83df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67885afc338ea62cfc7f2e89c4adc529 = $(`<div id="html_67885afc338ea62cfc7f2e89c4adc529" style="width: 100.0%; height: 100.0%;">Granges aux Belles - Hôpital Saint-Louis - Vélos disponibles: 3</div>`)[0];
+                popup_f2e5fe56b0aa33a83f96637e9a6c83df.setContent(html_67885afc338ea62cfc7f2e89c4adc529);
+            
+        
+
+        marker_b96868f39379b3e6baa04f065a86204c.bindPopup(popup_f2e5fe56b0aa33a83f96637e9a6c83df)
+        ;
+
+        
+    
+    
+            var marker_6471c500ad49579f90af2403ca8912bb = L.marker(
+                [48.828543456283, 2.3583075090494],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_5215ad4f85ab6b201da229f1125d7d11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6471c500ad49579f90af2403ca8912bb.setIcon(icon_5215ad4f85ab6b201da229f1125d7d11);
+        
+    
+        var popup_45e35387a1161ecfc5e95620970b39f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db8f256d1e463ce2525d7d407c455553 = $(`<div id="html_db8f256d1e463ce2525d7d407c455553" style="width: 100.0%; height: 100.0%;">Square de Choisy - Eastman - Vélos disponibles: 5</div>`)[0];
+                popup_45e35387a1161ecfc5e95620970b39f7.setContent(html_db8f256d1e463ce2525d7d407c455553);
+            
+        
+
+        marker_6471c500ad49579f90af2403ca8912bb.bindPopup(popup_45e35387a1161ecfc5e95620970b39f7)
+        ;
+
+        
+    
+    
+            var marker_76b54e5d0e69ebd6904a76006f436654 = L.marker(
+                [48.866887649978, 2.3066755757207],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_518a4ad2b9d1a4d88b62fa04be337f5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_76b54e5d0e69ebd6904a76006f436654.setIcon(icon_518a4ad2b9d1a4d88b62fa04be337f5e);
+        
+    
+        var popup_aa77eb1965411fef43287b8417543d8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5662cdf5954476b332549ae8009fc5fb = $(`<div id="html_5662cdf5954476b332549ae8009fc5fb" style="width: 100.0%; height: 100.0%;">François 1er - Montaigne - Vélos disponibles: 46</div>`)[0];
+                popup_aa77eb1965411fef43287b8417543d8c.setContent(html_5662cdf5954476b332549ae8009fc5fb);
+            
+        
+
+        marker_76b54e5d0e69ebd6904a76006f436654.bindPopup(popup_aa77eb1965411fef43287b8417543d8c)
+        ;
+
+        
+    
+    
+            var marker_2b93a5c2caef5aad1832797b97eb93b9 = L.marker(
+                [48.867415092322, 2.2258946679617],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_a910f06177ad4d60929190009ce0c347 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2b93a5c2caef5aad1832797b97eb93b9.setIcon(icon_a910f06177ad4d60929190009ce0c347);
+        
+    
+        var popup_1b75e1d0140127642665b2ae0ccb7560 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82991d9eedae1d735f8bc7706d26deac = $(`<div id="html_82991d9eedae1d735f8bc7706d26deac" style="width: 100.0%; height: 100.0%;">Pont de Suresnes - Vélos disponibles: 8</div>`)[0];
+                popup_1b75e1d0140127642665b2ae0ccb7560.setContent(html_82991d9eedae1d735f8bc7706d26deac);
+            
+        
+
+        marker_2b93a5c2caef5aad1832797b97eb93b9.bindPopup(popup_1b75e1d0140127642665b2ae0ccb7560)
+        ;
+
+        
+    
+    
+            var marker_d98cdd60eeca2ab8f5be876a9129a001 = L.marker(
+                [48.873114661405, 2.3798409114805],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_dc9c7d8125e753c68ca490d2d06dd5a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d98cdd60eeca2ab8f5be876a9129a001.setIcon(icon_dc9c7d8125e753c68ca490d2d06dd5a9);
+        
+    
+        var popup_ad6e33bb64fc37c15a0604a22b702c2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cc1b6c8b3ebca7fa67e7fbe64d236e2 = $(`<div id="html_8cc1b6c8b3ebca7fa67e7fbe64d236e2" style="width: 100.0%; height: 100.0%;">Rampal - Belleville - Vélos disponibles: 1</div>`)[0];
+                popup_ad6e33bb64fc37c15a0604a22b702c2f.setContent(html_8cc1b6c8b3ebca7fa67e7fbe64d236e2);
+            
+        
+
+        marker_d98cdd60eeca2ab8f5be876a9129a001.bindPopup(popup_ad6e33bb64fc37c15a0604a22b702c2f)
+        ;
+
+        
+    
+    
+            var marker_0e5dab32c40df9c45651967907274d21 = L.marker(
+                [48.867211201859, 2.3635464370545],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_190fc8386e8bc52424e5f1dcb6d91700 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0e5dab32c40df9c45651967907274d21.setIcon(icon_190fc8386e8bc52424e5f1dcb6d91700);
+        
+    
+        var popup_04c32efda93c2e6ba0a3fdcdb7dcc6fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_517dfaf9e011ce992f39db0090b3ad93 = $(`<div id="html_517dfaf9e011ce992f39db0090b3ad93" style="width: 100.0%; height: 100.0%;">Place de la République - Temple - Vélos disponibles: 7</div>`)[0];
+                popup_04c32efda93c2e6ba0a3fdcdb7dcc6fa.setContent(html_517dfaf9e011ce992f39db0090b3ad93);
+            
+        
+
+        marker_0e5dab32c40df9c45651967907274d21.bindPopup(popup_04c32efda93c2e6ba0a3fdcdb7dcc6fa)
+        ;
+
+        
+    
+    
+            var marker_29ae158d07fe28d895f7a363812cbe8d = L.marker(
+                [48.907134414988, 2.3960057280531],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_28350c767d5e324fddaa6c7b36f83d14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_29ae158d07fe28d895f7a363812cbe8d.setIcon(icon_28350c767d5e324fddaa6c7b36f83d14);
+        
+    
+        var popup_72cd13f1f1f0aa6eae3aa5f1a2945f18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8052d178d1fe1b47dd7062b65f897e92 = $(`<div id="html_8052d178d1fe1b47dd7062b65f897e92" style="width: 100.0%; height: 100.0%;">Jean Jaurès - Presles - Vélos disponibles: 3</div>`)[0];
+                popup_72cd13f1f1f0aa6eae3aa5f1a2945f18.setContent(html_8052d178d1fe1b47dd7062b65f897e92);
+            
+        
+
+        marker_29ae158d07fe28d895f7a363812cbe8d.bindPopup(popup_72cd13f1f1f0aa6eae3aa5f1a2945f18)
+        ;
+
+        
+    
+    
+            var marker_376d75d2f1a7e66e27523b704675f414 = L.marker(
+                [48.8563358, 2.3829901],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_ce937430e69c4f0703f7349427c11acd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_376d75d2f1a7e66e27523b704675f414.setIcon(icon_ce937430e69c4f0703f7349427c11acd);
+        
+    
+        var popup_e96967930c5b576089d01933c4d51e95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5effaac7a81204f7469e9eaa34ee32f1 = $(`<div id="html_5effaac7a81204f7469e9eaa34ee32f1" style="width: 100.0%; height: 100.0%;">Belfort - Voltaire - Vélos disponibles: 4</div>`)[0];
+                popup_e96967930c5b576089d01933c4d51e95.setContent(html_5effaac7a81204f7469e9eaa34ee32f1);
+            
+        
+
+        marker_376d75d2f1a7e66e27523b704675f414.bindPopup(popup_e96967930c5b576089d01933c4d51e95)
+        ;
+
+        
+    
+    
+            var marker_3458735ba35861c968f720c0fd2c903a = L.marker(
+                [48.852888670365, 2.3891476408096],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_afe48df23eb6c5d27f977416578c0721 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3458735ba35861c968f720c0fd2c903a.setIcon(icon_afe48df23eb6c5d27f977416578c0721);
+        
+    
+        var popup_f152ba138bc2a3db536718e2ed9a575c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10605006a0f436766558b1e3fa168337 = $(`<div id="html_10605006a0f436766558b1e3fa168337" style="width: 100.0%; height: 100.0%;">Alexandre Dumas - Voltaire - Vélos disponibles: 4</div>`)[0];
+                popup_f152ba138bc2a3db536718e2ed9a575c.setContent(html_10605006a0f436766558b1e3fa168337);
+            
+        
+
+        marker_3458735ba35861c968f720c0fd2c903a.bindPopup(popup_f152ba138bc2a3db536718e2ed9a575c)
+        ;
+
+        
+    
+    
+            var marker_ea16bd4b10537f5f4d8e1a6ca9e04ee4 = L.marker(
+                [48.872755334614, 2.2915497802487],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_bc18f73b9ff8d5812c542a92a42e9282 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ea16bd4b10537f5f4d8e1a6ca9e04ee4.setIcon(icon_bc18f73b9ff8d5812c542a92a42e9282);
+        
+    
+        var popup_009204cba6cce5dd0fedcaea76883e2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a1aa8a7088a9243124ec7d218508979 = $(`<div id="html_4a1aa8a7088a9243124ec7d218508979" style="width: 100.0%; height: 100.0%;">Traktir - Foch - Vélos disponibles: 12</div>`)[0];
+                popup_009204cba6cce5dd0fedcaea76883e2f.setContent(html_4a1aa8a7088a9243124ec7d218508979);
+            
+        
+
+        marker_ea16bd4b10537f5f4d8e1a6ca9e04ee4.bindPopup(popup_009204cba6cce5dd0fedcaea76883e2f)
+        ;
+
+        
+    
+    
+            var marker_f6fc63d918525bab6d04f7eba578c827 = L.marker(
+                [48.8471116, 2.3956204],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_5d5c5f906fb287f9484f350f31cb3033 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f6fc63d918525bab6d04f7eba578c827.setIcon(icon_5d5c5f906fb287f9484f350f31cb3033);
+        
+    
+        var popup_a282686ca70bfd3942dc4ee096e1be64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8819362dd95636264c91d2dc49ecf147 = $(`<div id="html_8819362dd95636264c91d2dc49ecf147" style="width: 100.0%; height: 100.0%;">Fabre d'Eglantine - Place de la Nation - Vélos disponibles: 6</div>`)[0];
+                popup_a282686ca70bfd3942dc4ee096e1be64.setContent(html_8819362dd95636264c91d2dc49ecf147);
+            
+        
+
+        marker_f6fc63d918525bab6d04f7eba578c827.bindPopup(popup_a282686ca70bfd3942dc4ee096e1be64)
+        ;
+
+        
+    
+    
+            var marker_e026fd87e95af2269e3131e8b87a8c58 = L.marker(
+                [48.870475399387, 2.3076190799475],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_62041a7d720616baea68e61cd2951b11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e026fd87e95af2269e3131e8b87a8c58.setIcon(icon_62041a7d720616baea68e61cd2951b11);
+        
+    
+        var popup_6e48a0ce385657a982a3a8165d7ab34d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb7c0a77ab738ec7421c1711ba7fe06b = $(`<div id="html_fb7c0a77ab738ec7421c1711ba7fe06b" style="width: 100.0%; height: 100.0%;">Colisée - Champs-Elysées - Vélos disponibles: 14</div>`)[0];
+                popup_6e48a0ce385657a982a3a8165d7ab34d.setContent(html_fb7c0a77ab738ec7421c1711ba7fe06b);
+            
+        
+
+        marker_e026fd87e95af2269e3131e8b87a8c58.bindPopup(popup_6e48a0ce385657a982a3a8165d7ab34d)
+        ;
+
+        
+    
+    
+            var marker_ed0c3688ba2153ebfd3bfec3255d4132 = L.marker(
+                [48.910423437526, 2.3995766043663],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_31a7a531d442f2466db930b349e4bb06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ed0c3688ba2153ebfd3bfec3255d4132.setIcon(icon_31a7a531d442f2466db930b349e4bb06);
+        
+    
+        var popup_b2711c06821e2e3df6ddf8af1a17653c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e27e89a2c86a08b307ec578a0509787 = $(`<div id="html_2e27e89a2c86a08b307ec578a0509787" style="width: 100.0%; height: 100.0%;">Jean Jaurès - Ouvrières Pivéreuses - Vélos disponibles: 10</div>`)[0];
+                popup_b2711c06821e2e3df6ddf8af1a17653c.setContent(html_2e27e89a2c86a08b307ec578a0509787);
+            
+        
+
+        marker_ed0c3688ba2153ebfd3bfec3255d4132.bindPopup(popup_b2711c06821e2e3df6ddf8af1a17653c)
+        ;
+
+        
+    
+    
+            var marker_022a40bbc71ed7cd209e5f2bc346ad28 = L.marker(
+                [48.874836457837, 2.2971323132515],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_f7272c0fd758f249b379643c56ba0004 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_022a40bbc71ed7cd209e5f2bc346ad28.setIcon(icon_f7272c0fd758f249b379643c56ba0004);
+        
+    
+        var popup_877632f1a26094595a3acc8932be0961 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bb992b5657d5f4f5ef0f99c7816f0e5 = $(`<div id="html_3bb992b5657d5f4f5ef0f99c7816f0e5" style="width: 100.0%; height: 100.0%;">Hoche - Tilsitt - Vélos disponibles: 5</div>`)[0];
+                popup_877632f1a26094595a3acc8932be0961.setContent(html_3bb992b5657d5f4f5ef0f99c7816f0e5);
+            
+        
+
+        marker_022a40bbc71ed7cd209e5f2bc346ad28.bindPopup(popup_877632f1a26094595a3acc8932be0961)
+        ;
+
+        
+    
+    
+            var marker_4637ae1ac411ef82557b24823267b442 = L.marker(
+                [48.876383969379, 2.3353566779335],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_3e79448036aa2f8b8ea801e21054aeb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4637ae1ac411ef82557b24823267b442.setIcon(icon_3e79448036aa2f8b8ea801e21054aeb1);
+        
+    
+        var popup_b1615339b8323e2f74309864d1a913e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5940e945fdb4f95a09e0da48dae7c09 = $(`<div id="html_b5940e945fdb4f95a09e0da48dae7c09" style="width: 100.0%; height: 100.0%;">Taitbout - Châteaudun - Vélos disponibles: 27</div>`)[0];
+                popup_b1615339b8323e2f74309864d1a913e0.setContent(html_b5940e945fdb4f95a09e0da48dae7c09);
+            
+        
+
+        marker_4637ae1ac411ef82557b24823267b442.bindPopup(popup_b1615339b8323e2f74309864d1a913e0)
+        ;
+
+        
+    
+    
+            var marker_f4a7756b7fbdc97b5d039a9fef58ac01 = L.marker(
+                [48.856502977696, 2.2931787543289],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_62bcf7fe6b83c1be4a7123ce4bdf2548 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f4a7756b7fbdc97b5d039a9fef58ac01.setIcon(icon_62bcf7fe6b83c1be4a7123ce4bdf2548);
+        
+    
+        var popup_05241f86b8ecfe4afaa783b528fb3193 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6237bf420272418cbd7dca4e99baaaf5 = $(`<div id="html_6237bf420272418cbd7dca4e99baaaf5" style="width: 100.0%; height: 100.0%;">Octave Gréard - Tour Eiffel - Vélos disponibles: 22</div>`)[0];
+                popup_05241f86b8ecfe4afaa783b528fb3193.setContent(html_6237bf420272418cbd7dca4e99baaaf5);
+            
+        
+
+        marker_f4a7756b7fbdc97b5d039a9fef58ac01.bindPopup(popup_05241f86b8ecfe4afaa783b528fb3193)
+        ;
+
+        
+    
+    
+            var marker_1bf645ffd8f6aed9022ad4a8dab2ad90 = L.marker(
+                [48.882193779572, 2.3405495658517],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_5b952271a9e8b74ddcaf42d1aefcc6de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1bf645ffd8f6aed9022ad4a8dab2ad90.setIcon(icon_5b952271a9e8b74ddcaf42d1aefcc6de);
+        
+    
+        var popup_09791ebae28209bf8f90a0b0da805c6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65852e251266f02c16592b01959f0cb7 = $(`<div id="html_65852e251266f02c16592b01959f0cb7" style="width: 100.0%; height: 100.0%;">Rochechouart - Martyrs - Vélos disponibles: 2</div>`)[0];
+                popup_09791ebae28209bf8f90a0b0da805c6f.setContent(html_65852e251266f02c16592b01959f0cb7);
+            
+        
+
+        marker_1bf645ffd8f6aed9022ad4a8dab2ad90.bindPopup(popup_09791ebae28209bf8f90a0b0da805c6f)
+        ;
+
+        
+    
+    
+            var marker_8a167e5c293b886992c4d6d387765c34 = L.marker(
+                [48.783680285918, 2.4544713672215],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_22f652fdadc7de4f39df68b2370d68af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8a167e5c293b886992c4d6d387765c34.setIcon(icon_22f652fdadc7de4f39df68b2370d68af);
+        
+    
+        var popup_7b57357dbf0a0acb88c144f092aba1c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_703d3b8c93d496593a7333824e1e73be = $(`<div id="html_703d3b8c93d496593a7333824e1e73be" style="width: 100.0%; height: 100.0%;">Préfecture de Créteil - Vélos disponibles: 0</div>`)[0];
+                popup_7b57357dbf0a0acb88c144f092aba1c2.setContent(html_703d3b8c93d496593a7333824e1e73be);
+            
+        
+
+        marker_8a167e5c293b886992c4d6d387765c34.bindPopup(popup_7b57357dbf0a0acb88c144f092aba1c2)
+        ;
+
+        
+    
+    
+            var marker_7c72db93bc303c9447d921d0e756cab2 = L.marker(
+                [48.847648620797, 2.3902582749724],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_5f2118ad286a15c418e319e1ec8a792c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7c72db93bc303c9447d921d0e756cab2.setIcon(icon_5f2118ad286a15c418e319e1ec8a792c);
+        
+    
+        var popup_64b7030ce36fdd9b7eb9aea87a9ffd5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adc2828e0093585d3344f87ef886dae8 = $(`<div id="html_adc2828e0093585d3344f87ef886dae8" style="width: 100.0%; height: 100.0%;">Diderot - Pierre Bourdan - Vélos disponibles: 9</div>`)[0];
+                popup_64b7030ce36fdd9b7eb9aea87a9ffd5e.setContent(html_adc2828e0093585d3344f87ef886dae8);
+            
+        
+
+        marker_7c72db93bc303c9447d921d0e756cab2.bindPopup(popup_64b7030ce36fdd9b7eb9aea87a9ffd5e)
+        ;
+
+        
+    
+    
+            var marker_bad5205c667038334345f7eb94c931f5 = L.marker(
+                [48.780191921646, 2.4685737495183],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_805996089afe259acfe31f167f67d0b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bad5205c667038334345f7eb94c931f5.setIcon(icon_805996089afe259acfe31f167f67d0b1);
+        
+    
+        var popup_f7a613e8c98e87e45e47c86c8440cc3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_793fe289b6a92c0363e8fd930e55a096 = $(`<div id="html_793fe289b6a92c0363e8fd930e55a096" style="width: 100.0%; height: 100.0%;">Haut du Mont-Mesly - Vélos disponibles: 0</div>`)[0];
+                popup_f7a613e8c98e87e45e47c86c8440cc3d.setContent(html_793fe289b6a92c0363e8fd930e55a096);
+            
+        
+
+        marker_bad5205c667038334345f7eb94c931f5.bindPopup(popup_f7a613e8c98e87e45e47c86c8440cc3d)
+        ;
+
+        
+    
+    
+            var marker_242b775e1d909063cc62f26bf4e3f00d = L.marker(
+                [48.85097433194, 2.3563072085381],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_3dbe0ba8942d45392e50a00c5a30da4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_242b775e1d909063cc62f26bf4e3f00d.setIcon(icon_3dbe0ba8942d45392e50a00c5a30da4f);
+        
+    
+        var popup_59931003a911cf51becdf8cbaf273689 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7b4654c11a1563049becd0db0b50d4f = $(`<div id="html_f7b4654c11a1563049becd0db0b50d4f" style="width: 100.0%; height: 100.0%;">Quai de Béthune - Pont de la Tournelle - Vélos disponibles: 18</div>`)[0];
+                popup_59931003a911cf51becdf8cbaf273689.setContent(html_f7b4654c11a1563049becd0db0b50d4f);
+            
+        
+
+        marker_242b775e1d909063cc62f26bf4e3f00d.bindPopup(popup_59931003a911cf51becdf8cbaf273689)
+        ;
+
+        
+    
+    
+            var marker_84014d4fbef9b290f8f1cb3302d26f4f = L.marker(
+                [48.77699496201, 2.4552552404284],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_8aceb18807c920a34702995208cf14b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_84014d4fbef9b290f8f1cb3302d26f4f.setIcon(icon_8aceb18807c920a34702995208cf14b4);
+        
+    
+        var popup_12da6d0f02d75b60dd2b4972ee3083b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df0591f2dd5f119cdcdb4cc46c0890bb = $(`<div id="html_df0591f2dd5f119cdcdb4cc46c0890bb" style="width: 100.0%; height: 100.0%;">Hôtel de Ville de Créteil - Vélos disponibles: 0</div>`)[0];
+                popup_12da6d0f02d75b60dd2b4972ee3083b3.setContent(html_df0591f2dd5f119cdcdb4cc46c0890bb);
+            
+        
+
+        marker_84014d4fbef9b290f8f1cb3302d26f4f.bindPopup(popup_12da6d0f02d75b60dd2b4972ee3083b3)
+        ;
+
+        
+    
+    
+            var marker_70206e844cc073b3f4a6aa59eb22eefa = L.marker(
+                [48.838811048815, 2.3896577954292],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_d8c2e6fe16456c24094b4050cd9bbdff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_70206e844cc073b3f4a6aa59eb22eefa.setIcon(icon_d8c2e6fe16456c24094b4050cd9bbdff);
+        
+    
+        var popup_57cfc8013d1da28a0a049d34e1144229 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_637f85929b2e3fda04478724c627947e = $(`<div id="html_637f85929b2e3fda04478724c627947e" style="width: 100.0%; height: 100.0%;">Dugommier - Vélos disponibles: 0</div>`)[0];
+                popup_57cfc8013d1da28a0a049d34e1144229.setContent(html_637f85929b2e3fda04478724c627947e);
+            
+        
+
+        marker_70206e844cc073b3f4a6aa59eb22eefa.bindPopup(popup_57cfc8013d1da28a0a049d34e1144229)
+        ;
+
+        
+    
+    
+            var marker_93d7ee8b090e3f5f4aac9ca3235112bb = L.marker(
+                [48.838513582184, 2.1866139007512],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_cb9f3b9364214aaeca877828d600a370 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_93d7ee8b090e3f5f4aac9ca3235112bb.setIcon(icon_cb9f3b9364214aaeca877828d600a370);
+        
+    
+        var popup_48e42aff62ffd1963f4375bab10687a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfccecf320eb603c1d2fc6607db642d8 = $(`<div id="html_dfccecf320eb603c1d2fc6607db642d8" style="width: 100.0%; height: 100.0%;">Place de la Gare - Vélos disponibles: 9</div>`)[0];
+                popup_48e42aff62ffd1963f4375bab10687a6.setContent(html_dfccecf320eb603c1d2fc6607db642d8);
+            
+        
+
+        marker_93d7ee8b090e3f5f4aac9ca3235112bb.bindPopup(popup_48e42aff62ffd1963f4375bab10687a6)
+        ;
+
+        
+    
+    
+            var marker_bb1219ce526b8c25a7df34fe736d2358 = L.marker(
+                [48.905928, 2.253629],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_9bef58e6cc19e1cca8d8df9a93d03544 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bb1219ce526b8c25a7df34fe736d2358.setIcon(icon_9bef58e6cc19e1cca8d8df9a93d03544);
+        
+    
+        var popup_d0665ee4c199dff5e63a02f0f7cb9e0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bab07f9a37ea15d1409f95eea3e76a2 = $(`<div id="html_0bab07f9a37ea15d1409f95eea3e76a2" style="width: 100.0%; height: 100.0%;">Château - République - Vélos disponibles: 0</div>`)[0];
+                popup_d0665ee4c199dff5e63a02f0f7cb9e0a.setContent(html_0bab07f9a37ea15d1409f95eea3e76a2);
+            
+        
+
+        marker_bb1219ce526b8c25a7df34fe736d2358.bindPopup(popup_d0665ee4c199dff5e63a02f0f7cb9e0a)
+        ;
+
+        
+    
+    
+            var marker_f6a03988b7bc29a3b180c5a4dc607a7b = L.marker(
+                [48.805160304345, 2.188277207315],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_0da2eb12396aa0975a70c4bae1a6b754 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f6a03988b7bc29a3b180c5a4dc607a7b.setIcon(icon_0da2eb12396aa0975a70c4bae1a6b754);
+        
+    
+        var popup_e1af709ac7da60da57f1a908ecc2ad21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eda607e84d9d1269b856a617f5bf88d0 = $(`<div id="html_eda607e84d9d1269b856a617f5bf88d0" style="width: 100.0%; height: 100.0%;">Gare de Chaville Rive Gauche - Vélos disponibles: 8</div>`)[0];
+                popup_e1af709ac7da60da57f1a908ecc2ad21.setContent(html_eda607e84d9d1269b856a617f5bf88d0);
+            
+        
+
+        marker_f6a03988b7bc29a3b180c5a4dc607a7b.bindPopup(popup_e1af709ac7da60da57f1a908ecc2ad21)
+        ;
+
+        
+    
+    
+            var marker_0b64b86f8d71d5ada98968fcd7d781e1 = L.marker(
+                [48.8242469, 2.3186306],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_7c10dee81de34075d8a4381814d3e29b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0b64b86f8d71d5ada98968fcd7d781e1.setIcon(icon_7c10dee81de34075d8a4381814d3e29b);
+        
+    
+        var popup_567866e6bef650eeab461026d7821a1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78fa8d793869fea748e04384a0857614 = $(`<div id="html_78fa8d793869fea748e04384a0857614" style="width: 100.0%; height: 100.0%;">Place de la Porte de Châtillon - Vélos disponibles: 5</div>`)[0];
+                popup_567866e6bef650eeab461026d7821a1a.setContent(html_78fa8d793869fea748e04384a0857614);
+            
+        
+
+        marker_0b64b86f8d71d5ada98968fcd7d781e1.bindPopup(popup_567866e6bef650eeab461026d7821a1a)
+        ;
+
+        
+    
+    
+            var marker_069fa810233493d1e7a8e11e64b00dcd = L.marker(
+                [48.8099849920804, 2.4580853059887886],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_1d024372aae6a19e96051efa5b303111 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_069fa810233493d1e7a8e11e64b00dcd.setIcon(icon_1d024372aae6a19e96051efa5b303111);
+        
+    
+        var popup_b85474390ddf601c590b548a8a3aa49f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ce1a9330ef7663ba91b2e495ff72509 = $(`<div id="html_2ce1a9330ef7663ba91b2e495ff72509" style="width: 100.0%; height: 100.0%;">Les Planètes - Vélos disponibles: 0</div>`)[0];
+                popup_b85474390ddf601c590b548a8a3aa49f.setContent(html_2ce1a9330ef7663ba91b2e495ff72509);
+            
+        
+
+        marker_069fa810233493d1e7a8e11e64b00dcd.bindPopup(popup_b85474390ddf601c590b548a8a3aa49f)
+        ;
+
+        
+    
+    
+            var marker_d1062092b1afeed15dd9557bc0ba323a = L.marker(
+                [48.797078298909, 2.463801423807],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_e572c0c98ad7115de979323d0cc8c670 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d1062092b1afeed15dd9557bc0ba323a.setIcon(icon_e572c0c98ad7115de979323d0cc8c670);
+        
+    
+        var popup_38ec79d27822396db6e03e5879258103 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd65bd4ec7ac9c2a92ea3b46e5edadea = $(`<div id="html_bd65bd4ec7ac9c2a92ea3b46e5edadea" style="width: 100.0%; height: 100.0%;">Centre Hospitalier Intercommunal de Créteil - Vélos disponibles: 0</div>`)[0];
+                popup_38ec79d27822396db6e03e5879258103.setContent(html_bd65bd4ec7ac9c2a92ea3b46e5edadea);
+            
+        
+
+        marker_d1062092b1afeed15dd9557bc0ba323a.bindPopup(popup_38ec79d27822396db6e03e5879258103)
+        ;
+
+        
+    
+    
+            var marker_a5c70292c25b53ecf78fe2d12ec1d402 = L.marker(
+                [48.773011623355, 2.435166164893],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_8266592a7fb757c398b39dde9d609ea5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a5c70292c25b53ecf78fe2d12ec1d402.setIcon(icon_8266592a7fb757c398b39dde9d609ea5);
+        
+    
+        var popup_df8026005cc735b0aaa15c3b8ee34b18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4f24bba9cf4666308660793f64a9b14 = $(`<div id="html_d4f24bba9cf4666308660793f64a9b14" style="width: 100.0%; height: 100.0%;">Créteil Pompadour - Vélos disponibles: 0</div>`)[0];
+                popup_df8026005cc735b0aaa15c3b8ee34b18.setContent(html_d4f24bba9cf4666308660793f64a9b14);
+            
+        
+
+        marker_a5c70292c25b53ecf78fe2d12ec1d402.bindPopup(popup_df8026005cc735b0aaa15c3b8ee34b18)
+        ;
+
+        
+    
+    
+            var marker_e4ea36b00149c4baf478238abbc8ff68 = L.marker(
+                [48.91516726221354, 2.357633225619793],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_28f49124f78476e5a839a5c2aa949faf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e4ea36b00149c4baf478238abbc8ff68.setIcon(icon_28f49124f78476e5a839a5c2aa949faf);
+        
+    
+        var popup_f898afb17cf20daa765699df7d84babf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df716dc105ab40e600d42e1f141bf392 = $(`<div id="html_df716dc105ab40e600d42e1f141bf392" style="width: 100.0%; height: 100.0%;">Wilson - Landy - Vélos disponibles: 20</div>`)[0];
+                popup_f898afb17cf20daa765699df7d84babf.setContent(html_df716dc105ab40e600d42e1f141bf392);
+            
+        
+
+        marker_e4ea36b00149c4baf478238abbc8ff68.bindPopup(popup_f898afb17cf20daa765699df7d84babf)
+        ;
+
+        
+    
+    
+            var marker_78d0023048cc17df404600fd5b00b760 = L.marker(
+                [48.8932644350857, 2.4126765131950383],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_8c1076edb6b4fa9c0cfdf9fa945e0193 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_78d0023048cc17df404600fd5b00b760.setIcon(icon_8c1076edb6b4fa9c0cfdf9fa945e0193);
+        
+    
+        var popup_2dd53633fb256711366c6746a2fd9988 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c70862f61df2cc7ad10fa9ba717cde8a = $(`<div id="html_c70862f61df2cc7ad10fa9ba717cde8a" style="width: 100.0%; height: 100.0%;">Charles de Gaulle - Jean Lolive - Vélos disponibles: 2</div>`)[0];
+                popup_2dd53633fb256711366c6746a2fd9988.setContent(html_c70862f61df2cc7ad10fa9ba717cde8a);
+            
+        
+
+        marker_78d0023048cc17df404600fd5b00b760.bindPopup(popup_2dd53633fb256711366c6746a2fd9988)
+        ;
+
+        
+    
+    
+            var marker_b2975f3a90522b1736f96d2041977e00 = L.marker(
+                [48.874515389637, 2.4152836203575],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_e7518bf9877f53d1e7fc497345f1df48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b2975f3a90522b1736f96d2041977e00.setIcon(icon_e7518bf9877f53d1e7fc497345f1df48);
+        
+    
+        var popup_28bd899604795833d2d02c3e939cac72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8e5a5b6ac0fcc6943cb01750a02de1a = $(`<div id="html_e8e5a5b6ac0fcc6943cb01750a02de1a" style="width: 100.0%; height: 100.0%;">Noisy le Sec - Jean-Baptiste Clément - Vélos disponibles: 1</div>`)[0];
+                popup_28bd899604795833d2d02c3e939cac72.setContent(html_e8e5a5b6ac0fcc6943cb01750a02de1a);
+            
+        
+
+        marker_b2975f3a90522b1736f96d2041977e00.bindPopup(popup_28bd899604795833d2d02c3e939cac72)
+        ;
+
+        
+    
+    
+            var marker_2b4ced3ad8297c36b6d81b7884c19c12 = L.marker(
+                [48.853844054334, 2.289705348222],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_657a9f93cd3ed54af94d26ed16be7bc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2b4ced3ad8297c36b6d81b7884c19c12.setIcon(icon_657a9f93cd3ed54af94d26ed16be7bc9);
+        
+    
+        var popup_d852ffdf76391a1a109b22c54b819e02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffa7bcf40880e50920b398e444057289 = $(`<div id="html_ffa7bcf40880e50920b398e444057289" style="width: 100.0%; height: 100.0%;">Bir Hakeim - Vélos disponibles: 23</div>`)[0];
+                popup_d852ffdf76391a1a109b22c54b819e02.setContent(html_ffa7bcf40880e50920b398e444057289);
+            
+        
+
+        marker_2b4ced3ad8297c36b6d81b7884c19c12.bindPopup(popup_d852ffdf76391a1a109b22c54b819e02)
+        ;
+
+        
+    
+    
+            var marker_08d26d7104f5d09e65bd58e94412a737 = L.marker(
+                [48.868266498223, 2.3304839059711],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_de2944d6ab0c1fd0cb4b6d4d2681e580 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_08d26d7104f5d09e65bd58e94412a737.setIcon(icon_de2944d6ab0c1fd0cb4b6d4d2681e580);
+        
+    
+        var popup_ad51d72da44b0ef4b369cf6b77f49f2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1140e4db1cb043f130a11cf00f48792b = $(`<div id="html_1140e4db1cb043f130a11cf00f48792b" style="width: 100.0%; height: 100.0%;">Danielle Casanova - Place Vendôme - Vélos disponibles: 25</div>`)[0];
+                popup_ad51d72da44b0ef4b369cf6b77f49f2d.setContent(html_1140e4db1cb043f130a11cf00f48792b);
+            
+        
+
+        marker_08d26d7104f5d09e65bd58e94412a737.bindPopup(popup_ad51d72da44b0ef4b369cf6b77f49f2d)
+        ;
+
+        
+    
+    
+            var marker_9a773a0776af5b02d8c82ab563a06019 = L.marker(
+                [48.8512971, 2.3624535],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_9392214293df31b44bac7e27d241b6de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9a773a0776af5b02d8c82ab563a06019.setIcon(icon_9392214293df31b44bac7e27d241b6de);
+        
+    
+        var popup_68762c902e20a38aa0ab0849e42d25c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7a07784a601ba319535c499ea86e345 = $(`<div id="html_c7a07784a601ba319535c499ea86e345" style="width: 100.0%; height: 100.0%;">Quai des Célestins - Henri IV - Vélos disponibles: 10</div>`)[0];
+                popup_68762c902e20a38aa0ab0849e42d25c0.setContent(html_c7a07784a601ba319535c499ea86e345);
+            
+        
+
+        marker_9a773a0776af5b02d8c82ab563a06019.bindPopup(popup_68762c902e20a38aa0ab0849e42d25c0)
+        ;
+
+        
+    
+    
+            var marker_74840ea49db49c8aed642df9818d4908 = L.marker(
+                [48.880516995482, 2.3763902374411],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_ae9d1541178a3a3512d72252b9eea5f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_74840ea49db49c8aed642df9818d4908.setIcon(icon_ae9d1541178a3a3512d72252b9eea5f3);
+        
+    
+        var popup_58002e461cb51ba1cc67f0470b2089c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10779364b6c6b6c046516003c5fddfed = $(`<div id="html_10779364b6c6b6c046516003c5fddfed" style="width: 100.0%; height: 100.0%;">Pailleron - Bouret - Vélos disponibles: 1</div>`)[0];
+                popup_58002e461cb51ba1cc67f0470b2089c2.setContent(html_10779364b6c6b6c046516003c5fddfed);
+            
+        
+
+        marker_74840ea49db49c8aed642df9818d4908.bindPopup(popup_58002e461cb51ba1cc67f0470b2089c2)
+        ;
+
+        
+    
+    
+            var marker_14558afa9dc75917472560403cd4d0aa = L.marker(
+                [48.909752, 2.239145],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_5592ca708fc871f5579ad424ca01306a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_14558afa9dc75917472560403cd4d0aa.setIcon(icon_5592ca708fc871f5579ad424ca01306a);
+        
+    
+        var popup_66fd2827dbc3eae558d9cab698f31bcd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5eb211af80ec45fae2b57e1cde4c8d7 = $(`<div id="html_d5eb211af80ec45fae2b57e1cde4c8d7" style="width: 100.0%; height: 100.0%;">Gare de la Garenne-Colombes - Vélos disponibles: 26</div>`)[0];
+                popup_66fd2827dbc3eae558d9cab698f31bcd.setContent(html_d5eb211af80ec45fae2b57e1cde4c8d7);
+            
+        
+
+        marker_14558afa9dc75917472560403cd4d0aa.bindPopup(popup_66fd2827dbc3eae558d9cab698f31bcd)
+        ;
+
+        
+    
+    
+            var marker_021e366fe97984dc36529b97dc7063be = L.marker(
+                [48.819116181578764, 2.3966637253761296],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_9685cbc8a731dfb331adc3a474ecb093 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_021e366fe97984dc36529b97dc7063be.setIcon(icon_9685cbc8a731dfb331adc3a474ecb093);
+        
+    
+        var popup_7b7153408ac3cc13cd8a189f86d4d8ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3f96c7072566d053c54e8a996331021 = $(`<div id="html_d3f96c7072566d053c54e8a996331021" style="width: 100.0%; height: 100.0%;">Westermeyer - Paul Vaillant-Couturier - Vélos disponibles: 26</div>`)[0];
+                popup_7b7153408ac3cc13cd8a189f86d4d8ea.setContent(html_d3f96c7072566d053c54e8a996331021);
+            
+        
+
+        marker_021e366fe97984dc36529b97dc7063be.bindPopup(popup_7b7153408ac3cc13cd8a189f86d4d8ea)
+        ;
+
+        
+    
+    
+            var marker_3f5184a1ac8034888574fef0782a9ecb = L.marker(
+                [48.857615678565, 2.3358313530377],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_7515b4afaf97ed87abfc9ad430ac3388 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3f5184a1ac8034888574fef0782a9ecb.setIcon(icon_7515b4afaf97ed87abfc9ad430ac3388);
+        
+    
+        var popup_a85dbc64df72db7119fc7ad508f32bd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4c84305d51b5431ba7753d079cc4bbb = $(`<div id="html_a4c84305d51b5431ba7753d079cc4bbb" style="width: 100.0%; height: 100.0%;">Institut de France - Vélos disponibles: 14</div>`)[0];
+                popup_a85dbc64df72db7119fc7ad508f32bd9.setContent(html_a4c84305d51b5431ba7753d079cc4bbb);
+            
+        
+
+        marker_3f5184a1ac8034888574fef0782a9ecb.bindPopup(popup_a85dbc64df72db7119fc7ad508f32bd9)
+        ;
+
+        
+    
+    
+            var marker_f23d81a99cebe6ece7b54df4859e7bc4 = L.marker(
+                [48.86181809267, 2.3501381278038],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_73482c69dcef6a3bd8c9e53ad5c460a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f23d81a99cebe6ece7b54df4859e7bc4.setIcon(icon_73482c69dcef6a3bd8c9e53ad5c460a1);
+        
+    
+        var popup_8da33d341cd759e7beb33fc22745dc05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fbdb7120bf43b3a9cf3addde4ada8fc = $(`<div id="html_0fbdb7120bf43b3a9cf3addde4ada8fc" style="width: 100.0%; height: 100.0%;">Sebastopol - Rambuteau - Vélos disponibles: 5</div>`)[0];
+                popup_8da33d341cd759e7beb33fc22745dc05.setContent(html_0fbdb7120bf43b3a9cf3addde4ada8fc);
+            
+        
+
+        marker_f23d81a99cebe6ece7b54df4859e7bc4.bindPopup(popup_8da33d341cd759e7beb33fc22745dc05)
+        ;
+
+        
+    
+    
+            var marker_3813439b218a1ee2eb2a82be79bb676f = L.marker(
+                [48.870406028483, 2.323243509808],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_bbd3d67bc3a6d28f957d8c7f36d9d18a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3813439b218a1ee2eb2a82be79bb676f.setIcon(icon_bbd3d67bc3a6d28f957d8c7f36d9d18a);
+        
+    
+        var popup_4e45054f8753d7dfc8ff519934e25f76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe28ca4acc322508a86dcd1b5d19f6d2 = $(`<div id="html_fe28ca4acc322508a86dcd1b5d19f6d2" style="width: 100.0%; height: 100.0%;">Malesherbes - Place de la Madeleine - Vélos disponibles: 42</div>`)[0];
+                popup_4e45054f8753d7dfc8ff519934e25f76.setContent(html_fe28ca4acc322508a86dcd1b5d19f6d2);
+            
+        
+
+        marker_3813439b218a1ee2eb2a82be79bb676f.bindPopup(popup_4e45054f8753d7dfc8ff519934e25f76)
+        ;
+
+        
+    
+    
+            var marker_5c4ec9df8c6a068ed83b802833b9040d = L.marker(
+                [48.836395736424, 2.2784192115068],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_bf58d5bdadab3b9ba931a66f9db4ad7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5c4ec9df8c6a068ed83b802833b9040d.setIcon(icon_bf58d5bdadab3b9ba931a66f9db4ad7c);
+        
+    
+        var popup_c18e409d8b0c811193a3643f1299d857 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7dae87e8fe3239ab10b8a0f7db672e26 = $(`<div id="html_7dae87e8fe3239ab10b8a0f7db672e26" style="width: 100.0%; height: 100.0%;">Place Balard - Vélos disponibles: 36</div>`)[0];
+                popup_c18e409d8b0c811193a3643f1299d857.setContent(html_7dae87e8fe3239ab10b8a0f7db672e26);
+            
+        
+
+        marker_5c4ec9df8c6a068ed83b802833b9040d.bindPopup(popup_c18e409d8b0c811193a3643f1299d857)
+        ;
+
+        
+    
+    
+            var marker_60c18a45375d9fd84cbbb472049b8d33 = L.marker(
+                [48.834131261494, 2.4547516554594],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_fd7dfad94f48281fec50293a17c3cbe9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_60c18a45375d9fd84cbbb472049b8d33.setIcon(icon_fd7dfad94f48281fec50293a17c3cbe9);
+        
+    
+        var popup_a038abf9ea1982178714326a691870d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9946ea7b1ac140662b11b27fdb03a08f = $(`<div id="html_9946ea7b1ac140662b11b27fdb03a08f" style="width: 100.0%; height: 100.0%;">Tremblay - Lac des Minimes - Vélos disponibles: 57</div>`)[0];
+                popup_a038abf9ea1982178714326a691870d8.setContent(html_9946ea7b1ac140662b11b27fdb03a08f);
+            
+        
+
+        marker_60c18a45375d9fd84cbbb472049b8d33.bindPopup(popup_a038abf9ea1982178714326a691870d8)
+        ;
+
+        
+    
+    
+            var marker_75b68904f24fab601bdd110a9bee04a5 = L.marker(
+                [48.902519074064, 2.3740895837545],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_9c4de58f7f7b96c66f5f33bdb1e01202 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_75b68904f24fab601bdd110a9bee04a5.setIcon(icon_9c4de58f7f7b96c66f5f33bdb1e01202);
+        
+    
+        var popup_40e004c219a5fc4a845fece7759564fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b86aed86bb1b927475e7346615d4d78 = $(`<div id="html_1b86aed86bb1b927475e7346615d4d78" style="width: 100.0%; height: 100.0%;">Madeleine Vionnet - Vélos disponibles: 52</div>`)[0];
+                popup_40e004c219a5fc4a845fece7759564fa.setContent(html_1b86aed86bb1b927475e7346615d4d78);
+            
+        
+
+        marker_75b68904f24fab601bdd110a9bee04a5.bindPopup(popup_40e004c219a5fc4a845fece7759564fa)
+        ;
+
+        
+    
+    
+            var marker_81a74186ddc38cdebb33488a05ff0b88 = L.marker(
+                [48.833122686454, 2.2571459412575],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_c73b2ade65826cce3349f4be04555295 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_81a74186ddc38cdebb33488a05ff0b88.setIcon(icon_c73b2ade65826cce3349f4be04555295);
+        
+    
+        var popup_21ea91c81c8efa889fb6a951bc6ec180 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9670af44643a5a3af4a21a573149704d = $(`<div id="html_9670af44643a5a3af4a21a573149704d" style="width: 100.0%; height: 100.0%;">Enfants du Paradis - Peupliers - Vélos disponibles: 58</div>`)[0];
+                popup_21ea91c81c8efa889fb6a951bc6ec180.setContent(html_9670af44643a5a3af4a21a573149704d);
+            
+        
+
+        marker_81a74186ddc38cdebb33488a05ff0b88.bindPopup(popup_21ea91c81c8efa889fb6a951bc6ec180)
+        ;
+
+        
+    
+    
+            var marker_d1bd0b085852da7f39bedc6c2ef6667d = L.marker(
+                [48.802117531472, 2.4543687905029],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_8369edcb6d06597fab9c5cdc7af88a20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d1bd0b085852da7f39bedc6c2ef6667d.setIcon(icon_8369edcb6d06597fab9c5cdc7af88a20);
+        
+    
+        var popup_5005574772dbbbf9919b3d57fe955f2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61113fa929bb7d9c14e824200bcb3a82 = $(`<div id="html_61113fa929bb7d9c14e824200bcb3a82" style="width: 100.0%; height: 100.0%;">Bleuets - Bordières - Vélos disponibles: 0</div>`)[0];
+                popup_5005574772dbbbf9919b3d57fe955f2c.setContent(html_61113fa929bb7d9c14e824200bcb3a82);
+            
+        
+
+        marker_d1bd0b085852da7f39bedc6c2ef6667d.bindPopup(popup_5005574772dbbbf9919b3d57fe955f2c)
+        ;
+
+        
+    
+    
+            var marker_c99d6e90d90c68d9323b12b57b11bd74 = L.marker(
+                [48.875674400851, 2.3265598341823],
+                {}
+            ).addTo(map_c5c154846e4ad3793a0ec216745643bb);
+        
+    
+            var icon_0e0687078176d30538a854fe6f79226d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c99d6e90d90c68d9323b12b57b11bd74.setIcon(icon_0e0687078176d30538a854fe6f79226d);
+        
+    
+        var popup_b3c464c59e750bb24289ad836a73eedc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_835f0d212328f9610647cdcb5a7ba806 = $(`<div id="html_835f0d212328f9610647cdcb5a7ba806" style="width: 100.0%; height: 100.0%;">Gare Saint-Lazare - Cour du Havre - Vélos disponibles: 31</div>`)[0];
+                popup_b3c464c59e750bb24289ad836a73eedc.setContent(html_835f0d212328f9610647cdcb5a7ba806);
+            
+        
+
+        marker_c99d6e90d90c68d9323b12b57b11bd74.bindPopup(popup_b3c464c59e750bb24289ad836a73eedc)
+        ;
+
+        
+    
+</script>
+</html>
